@@ -1,0 +1,133 @@
+Title: Bitcoin Development Fund
+
+URL Source: https://hrf.org/program/bitcoin-development-fund/
+
+Markdown Content:
+![Image 1: Bitcoin Development Fund](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2025/09/Bitcoin-Development-Fund-Image-Web-Header-V1-1536x864.png)
+
+![Image 2: Bitcoin Development Fund](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2025/09/Bitcoin-Development-Fund-Logo-and-Text-Web-Header-V1.svg)
+
+![Image 3: Bitcoin Development Fund](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2025/09/Bitcoin-Development-Fund-Image-Mobile-Header-V1-691x1024.png)
+
+![Image 4: Bitcoin Development Fund](blob:http://localhost/b8fae99e8bf2b1a0d1389735ecab40fd)
+
+About
+-----
+
+The Bitcoin Development Fund (BDF) is dedicated to supporting individuals and projects that make Bitcoin and related freedom technologies more powerful tools for human rights defenders operating in challenging political environments.
+
+In authoritarian regimes such as Nicaragua, Nigeria, China, and Russia, Bitcoin provides a crucial way for human rights defenders to transact privately, pay salaries, receive donations, and crowdfund without the threat of censorship or confiscation by dictators. We provide grants and invest in projects that empower human rights defenders — and everyday citizens — to continue their struggle for democracy with uncensorable money.
+
+[![Image 5: Play](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/08/Play-icon.png)](https://youtu.be/0U6PwO07Aw0)
+
+Who We Fund
+-----------
+
+##### Software developers
+
+focused on enhancing Bitcoin and related freedom technologies’ privacy, security, and decentralization.
+
+##### Human rights defenders and activists
+
+using Bitcoin to counteract financial surveillance, censorship, confiscation, and financial repression.
+
+##### Educators
+
+creating content and resources that highlight Bitcoin’s potential for financial freedom, especially for people living in oppressive environments.
+
+##### Community builders
+
+fostering local and global groups to encourage safe and effective Bitcoin use.
+
+##### Translators
+
+expanding access to Bitcoin education by translating resources into multiple languages for diverse audiences.
+
+##### User experience designers
+
+simplifying Bitcoin tools to improve usability, especially for newcomers to Bitcoin.
+
+Years
+
+0
+
+Grants
+
+0
+
+in BTC
+
+$0 m+
+
+![Image 6: Ideas Beyond Borders](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/09/BDF-Grantees-for-banner-Ideas-Beyond-Borders-V1-300x227.png)
+
+![Image 7: The Bitcoin Design Community and Foundation](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/09/BDF-Grantees-for-banner-The-Bitcoin-Design-Community-and-Foundation-V1-300x227.png)
+
+![Image 8: BTCPayServer](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/09/BDF-Grantees-for-banner-BTCPayServer-V1-300x227.png)
+
+Explore all projects and individuals who have received grants from the Bitcoin Development Fund.
+
+Our Application Process
+-----------------------
+
+##### Submit your proposal
+
+Begin by submitting a brief description of your project through our online application form. Applications are accepted year-round.
+
+##### Review process
+
+Our team carefully reviews each application, prioritizing projects that align with our mission to advance financial freedom for those living under authoritarian regimes.
+
+##### Grantee announcement
+
+We notify successful applicants and deploy the funds to support their projects. Additionally, we publish a press release at the end of each quarter announcing new grantees.
+
+##### Ongoing support
+
+Throughout the project duration, our team will be available to offer support, guidance, and resources to ensure grantees can achieve their goals.
+
+### Apply now and join us in building tools for financial freedom
+
+FAQs
+----
+
+What types of projects does the BDF support?
+
+We support projects focused on enhancing the privacy, security, and decentralization of Bitcoin, as well as those focused on education, community-building, and promoting Bitcoin’s use in repressive environments. If you’re unsure whether your project fits, we encourage you to apply and let us evaluate its alignment with our mission.
+
+What kind of software projects is the BDF interested in?
+
+We’re particularly interested in projects related to Bitcoin Core, Nostr, Ecash, Bitcoin utility applications, and complementary freedom technologies.
+
+What projects do we not fund?
+
+Projects based on alternative cryptocurrencies other than Bitcoin and projects that do not align with HRF’s mission of supporting activists and individuals in repressive societies.
+
+When can I apply for a grant?
+
+You can submit your application at any time throughout the year. However, we make grantee announcements at the end of each quarter.
+
+How long does the review process take?
+
+We accept applications on a rolling basis and announce grant recipients at the end of each quarter. Applicants can expect to receive more information within 4-6 weeks after submitting their application.
+
+How will I know if I have been selected?
+
+If you are selected as a grantee, we will personally contact you to inform you of your selection. We will then work with you to finalize administrative details and arrange delivery of the Bitcoin grant.
+
+How much funding can I expect from a BDF grant?
+
+Grant sizes vary depending on the scope and impact potential of the project. Each application is assessed individually, and funding is allocated on a case-by-case basis.
+
+Can I reapply if my project was not selected?
+
+Yes, if your project was not selected in a previous round, you are welcome to reapply in future rounds.
+
+### Stay informed with the latest from the Bitcoin Development Fund.
+
+##### Explore our past grant recipients and updates on upcoming announcements and opportunities
+
+Other Programs
+--------------
+
+[![Image 9: Financial Freedom](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/09/Financial-Freedom-Cover-V3.png) ![Image 10: Financial Freedom](https://cdn-ilccclh.nitrocdn.com/NjtqKQHOTztkdEZtWVwhTXMBkDrrjmBI/assets/images/optimized/rev-a2df98e/hrf.org/wp-content/uploads/2024/09/Financial-Freedom-Logo-V1-300x134.png) All governments, especially those of dictators, frequently debase, manipulate, demonetize, and surveil currencies, confiscate property, and freeze the bank accounts of people they don’t like. Dissidents, human rights defenders, journalists, and nonprofit organizations in authoritarian countries face enormous obstacles just to receive donations and pay bills.](https://hrf.org/program/financial-freedom/)

@@ -1,0 +1,116 @@
+Title: You searched for press@ - Human Rights Foundation
+
+URL Source: https://hrf.org/?s=press@
+
+Markdown Content:
+![Image 1: Financial Freedom Report #108](https://hrf.org/wp-content/uploads/2026/02/Latest-Thumbnail-Financial-Freedom-Report-108-V1.png)
+
+#### HRF’s Weekly Financial Freedom Report #108
+
+In Kenya, the central bank warned that making Valentine’s Day bouquets out of banknotes could carry prison sentences of up to seven years. While officials frame the move as protecting currency integrity, the severity of the punishment indicates how seriously the government is trying to protect the image of the shilling. In Bitcoin news, a $1 million transaction was successfully completed over the Lightning Network, demonstrating the network’s growing capacity to move large amounts of value quickly with minimal fees. The transaction challenges the perception that Lightning is limited to small payments and underscores its potential as a settlement tool outside traditional, intermediary-heavy financial systems.
+
+![Image 2: An Open Letter to Muhammad Yunus, Chief Adviser of the Interim Government of Bangladesh](https://hrf.org/wp-content/uploads/2026/02/Latest-Thumbnail-An-Open-Letter-to-Muhammad-Yunus-Chief-Adviser-of-the-Interim-Government-of-Bangladesh-V1.png)
+
+#### An Open Letter to Muhammad Yunus, Chief Adviser of the Interim Government of Bangladesh
+
+After 18 months under the leadership of your interim government, we, the undersigned organizations, write to call your administration’s attention to its responsibility to ensure that the upcoming elections in Bangladesh, slated to take place on Feb. 12, remain free and fair. These elections are the result of an outpouring of grievances surrounding injustice and human rights violations in Bangladesh. What began as calls for reform to a discriminatory government job allocation system evolved into a broader call for widespread change, led by courageous student leaders. Protesters prevailed against a violent state crackdown to oust Prime Minister Sheikh Hasina in August 2024, concluding her 15 continuous years in power.
+
+![Image 3: Voices of Dissent](https://hrf.org/wp-content/uploads/2025/08/Event-Registration-Thumbnail-College-Freedom-Forum_-Voices-of-Dissent-V1.png)
+
+#### Lessons from Tibet on Repression and Nonviolent Resistance
+
+![Image 4: Financial Freedom Report #107](https://hrf.org/wp-content/uploads/2026/02/Latest-Thumbnail-Financial-Freedom-Report-107-V1.png)
+
+#### HRF’s Weekly Financial Freedom Report #107
+
+Good morning readers, In Russia, physical bank branches are closing down at a record pace. The closures are placing renewed pressure on Russians living in rural areas and those contending with frequent Internet disruptions as a result of the Kremlin’s invasion of Ukraine. For many Russians, in-person branches remain a vital means of resolving account issues and accessing cash that digital services cannot easily address. A new Bitcoin tool called BitZed enables Zambians to buy and spend bitcoin using mobile money services. BitZed’s goal is to increase Bitcoin’s accessibility and viability as day-to-day money in a country contending with a weak currency and financial controls. We include a recent essay by economist Tyler Cowen, which argues that a country’s currency can serve as a real-time signal of political and economic health, pointing to Iran’s collapsing rial as a market verdict on regime credibility. Now, onto this week’s news.
+
+![Image 5: Joint statement on the shrinking space for free expression and human rights debate ahead of Thailand’s election](https://hrf.org/wp-content/uploads/2026/02/Latest-Thumbnail-Joint-statement-on-the-shrinking-space-for-free-expression-and-human-rights-debate-ahead-of-Thailands-election-V1.png)
+
+#### Joint statement on the shrinking space for free expression and human rights debate ahead of Thailand’s election
+
+We, the undersigned organizations, express deep concern over restrictions on freedom of expression that have led to the exclusion of meaningful discussion on human rights issues ahead of Thailand’s upcoming general election and constitutional referendum. On February 8, Thai voters will have the opportunity to replace the military-drafted 2017 constitution with one that enshrines political rights and civic freedoms, potentially paving a new direction for the country. However, ongoing restrictions on speech have shaped the electoral environment to such a degree that issues concerning freedom of expression and the continued imprisonment of prisoners of conscience have remained largely absent from public debate during this election cycle.
+
+![Image 6: AI for Individual Rights Fund](https://hrf.org/wp-content/uploads/2026/02/AI-for-Individual-Rights-Fund-Thumbnail-V1.png)
+
+#### AI for Individual Rights Fund
+
+![Image 7: Don't Forget the Many Ways Russia Tried To Justify Invading Ukraine](https://hrf.org/wp-content/uploads/2026/02/Latest-Thumbnail-Dont-Forget-the-Many-Ways-Russia-Tried-To-Justify-Invading-Ukraine-V1.png)
+
+#### Don’t Forget the Many Ways Russia Tried To Justify Invading Ukraine
+
+As negotiations continue to drag on between Washington, Kyiv and Moscow, the Kremlin’s narrative about the war has centered on one potential solution: evicting Ukrainian forces from the Donbas. Not by force, of course. After nearly four years of continuous, devastating war, Russian troops are still bogged down in eastern Ukraine, gaining minuscule amounts of territory at terrifyingly high costs. Instead, the Kremlin is banking on convincing the United States to strong-arm Ukraine into unilaterally ceding the territory. As envoy Kirill Dmitriev, who has led negotiations from the Russian side, posted on Tuesday, “Donbas withdrawal is the path to peace for Ukraine.”
+
+![Image 8: HRF urges UN Working Group on Arbitrary Detention to rule India’s detention of Kashmiri journalist Irfan Mehraj arbitrary and unlawful](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-urges-UN-Working-Group-on-Arbitrary-Detention-to-rule-Indias-detention-of-Kashmiri-journalist-Irfan-Mehraj-arbitrary-and-unlawful-V1.png)
+
+#### HRF urges UN Working Group on Arbitrary Detention to rule India’s detention of Kashmiri journalist Irfan Mehraj arbitrary and unlawful
+
+Today, the Human Rights Foundation (HRF) and the Asian Forum for Human Rights and Development (FORUM-ASIA) submitted an individual complaint to the UN Working Group on Arbitrary Detention (WGAD) on behalf of Kashmiri journalist and human rights defender Irfan Mehraj, urging the group to declare his detention arbitrary and in violation of international law. Mehraj was scheduled to appear in court today. Mehraj, an independent journalist who has reported for international and local news outlets, was arrested on March 20, 2023 by agents of India’s counter-terrorism agency, the National Intelligence Agency. Nearly three years later, he remains in prolonged pre-trial detention in a maximum-security prison in New Delhi, more than 500 miles from his home city of Srinagar. Indian courts have relentlessly extended his pretrial detention, while his bail application remains undecided and his trial has yet to begin.
+
+![Image 9: Financial Freedom Report #106](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-Financial-Freedom-Report-106-V1.png)
+
+#### HRF’s Weekly Financial Freedom Report #106
+
+This week, we investigate new developments surrounding China’s central bank digital currency (CBDC), as recent design changes show that the Chinese Communist Party is experimenting with new incentives to onboard people to this more tightly controlled kind of money. In Bitcoin news, a new private transaction broadcast feature in Bitcoin Core lets a node announce transactions using Tor connections, making network-level privacy better by default, to the benefit of dissidents and nonprofits. We include the latest edition of the HRF x Pubkey Freedom Tech Series, where HRF’s Freedom Tech Grants Lead Harrison Friedes discusses the power of vibe coding with Senior Software Engineer at Block, Alex Hancock. We end with an explainer of Silent Payments, which make Bitcoin safer to use for human rights defenders.
+
+![Image 10: All Eyes on Iran_ After a Bloody Crackdown, Democracies Should Hold the Regime Accountable](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-All-Eyes-on-Iran_-After-a-Bloody-Crackdown-Democracies-Should-Hold-the-Regime-Accountable-V1.png)
+
+#### All Eyes on Iran: After a Bloody Crackdown, Democracies Should Hold the Regime Accountable
+
+It has been 31 days since the Iranian people took to the streets en masse to protest. Though initially sparked by economic hardship, the protests quickly grew beyond Tehran’s grand bazaar, as people expressed outrage over the regime’s widespread human rights violations and called for the removal of dictator Ayatollah Ali Khamenei. The regime has responded with deadly force and a 19-day internet blackout. At the time of writing, the death toll for Jan. 8–9 alone stands at more than 30,000. Reports estimate that another 330,000 people have been injured. On Jan. 9, Khamenei ordered the Supreme National Security Council to quell the demonstrations by any means necessary, ordering officials to shoot to kill and show no mercy. Videos verified by The New York Times show officials opening fire on protesters in 19 cities, including six different neighborhoods in Tehran. Images leaked to the media and reports from those on the ground show medical equipment still attached to bodies with gunshot wounds, indicating they may have been shot while receiving treatment for injuries sustained during the protests.
+
+![Image 11: HRF’s AI for Individual Rights Newsletter #6](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRFs-AI-for-Individual-Rights-Newsletter-6-V2.png)
+
+#### HRF’s AI for Individual Rights Newsletter #6
+
+This month captures the spirit of the moment, where AI is being used to repress, but people are pushing back in remarkable ways towards personal empowerment. In Nepal, an AI-powered surveillance system is suppressing Tibetan dissent. We also examine how authoritarian regimes like Russia and Iran use generative AI to manipulate public narratives and obscure the truth during crackdowns on peaceful protests. On the other hand, we highlight the increasing usage of Bitchat, a vibe-coded and encrypted offline messaging app, in Uganda and Iran, where it provides a way for citizens to communicate during nationwide internet shutdowns. We also explore the release of TranslateGemma, a set of open-source AI translation models, as well as the rise of AI tools like Claude Code, Clawdbot, and OpenCode that are accelerating the development of freedom technologies and giving rise to a new revolution in personal computing and, potentially, digital sovereignty.
+
+![Image 12: Joint Statement on the Day of the Endangered Lawyer](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-Joint-Statement-on-the-Day-of-the-Endangered-Lawyer-V1.png)
+
+#### Joint Statement on the Day of the Endangered Lawyer
+
+Today, January 24th, marks the International Day of the Endangered Lawyer. In recognition of endangered lawyers around the world, we, the undersigned, express our deep alarm at the growing repression of lawyers worldwide for the legitimate exercise of their professional duties. Attacks on lawyers strike at the very heart of the rule of law, deny victims meaningful access to justice, and enable wider assaults on human rights and democratic institutions. Today, we recall that lawyers have become a deliberate target of authoritarian regimes globally.
+
+![Image 13: HRF's Weekly Financial Freedom Report #105](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-Weekly-Financial-Freedom-Report-105-V1.png)
+
+#### HRF’s Weekly Financial Freedom Report #105
+
+Good morning readers, In Nigeria, a tax law requires providers of digital assets to monitor transactions, collect personal information, and link payments to biometric national ID systems. The law gives the state a powerful means to surveil and trace the financial activity of individuals and civil society in real time without accessing blockchains directly. At the recent HRF-sponsored AI Hack for Freedom in Austin, Texas, teams of open-source developers and front-line dissidents created new freedom tech tools to address activists’ most urgent needs. Over the weekend, teams built and tested new safety, reporting, and investigative technologies designed to function in the face of financial censorship, authoritarian surveillance, and internet shutdowns. We also feature a new episode of The Network State Podcast, where HRF’s Chief Strategy Officer Alex Gladstein sits down with Balaji Srinivasan to explain how Bitcoin serves as a financial escape hatch for billions grappling with inflation, financial repression, and authoritarian-controlled banking systems. Time to dive into what happened around the world.
+
+![Image 14: HRF sponsors AI Hack for Freedom in Austin, TX, Jan. 17-18](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-sponsors-AI-Hack-for-Freedom-in-Austin-TX-Jan.-17-18-V1.png)
+
+#### Announcing the AI Hack for Freedom Hackathon Winners
+
+This past weekend, the Human Rights Foundation (HRF) sponsored the first AI Hack for Freedom, a hackathon where globally-renowned dissidents and top open-source developers worked together to build tools addressing the most urgent needs of activists under authoritarian regimes. Hosted by Bitcoin Park in Austin, Texas, eight human rights defenders served as team captains, partnered with software developers, and utilized the power and speed of vibe coding to quickly prototype and deploy solutions for movements operating under repression. AI Hack for Freedom was a powerful demonstration of the power of vibe coding for human rights work. In just 28 hours, activists and technologists leveraged recent AI capabilities to build eight unique tools that could save lives, secure communication, and supercharge frontline research.
+
+![Image 15: HRF Petitions UN in Case of Navalny’s Lawyers Spotlighted by Yulia Navalnaya’s Washington Post Op-Ed](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-Petitions-UN-in-Case-of-Navalnys-Lawyers-Spotlighted-by-Yulia-Navalnayas-Washington-Post-Op-Ed-V1.png)
+
+#### HRF Petitions UN in Case of Navalny’s Lawyers Spotlighted by Yulia Navalnaya’s Washington Post Op-Ed
+
+The Human Rights Foundation (HRF) submitted the case of lawyers Vadim Kobzev and Alexei Liptser to the United Nations Working Group on Arbitrary Detention (WGAD) today, on the first anniversary of their sentencing. Kobzev and Liptser were members of Alexei Navalny’s legal team, most recently representing him after his 2021 arrest at Moscow’s airport and advocating for his humane treatment in prison. Their imprisonment represents the worsening crackdown on political opposition in Russia and a disturbing trend toward targeting lawyers merely for performing their professional duties.
+
+![Image 16](https://hrf.org/wp-content/uploads/2026/01/Human-Rights-Dispatch-Thumbnail-16-01-2026-V1.png)
+
+#### Venezuelan prisoners of conscience released, Nicaragua electoral results backed by OAS and EU, Iran protests update.
+
+![Image 17: HRF sponsors AI Hack for Freedom in Austin, TX, Jan. 17-18](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-sponsors-AI-Hack-for-Freedom-in-Austin-TX-Jan.-17-18-V1.png)
+
+#### HRF sponsors AI Hack for Freedom in Austin, TX, Jan. 17-18
+
+The Human Rights Foundation (HRF) announces the launch of AI Hack for Freedom, an AI-powered hackathon dedicated to building tools for human rights defenders. The event will take place this weekend, Jan. 17-18, in Austin, Texas, and will be hosted by Bitcoin Park, which runs a campus in Austin dedicated to free and open-source software.
+
+![Image 18: Human Rights Dispatch Thumbnail - 15-01-2026 V1](https://hrf.org/wp-content/uploads/2026/01/Human-Rights-Dispatch-Thumbnail-15-01-2026-V1.png)
+
+#### Remembering Ilham Tohti, HRF op-ed on Venezuela
+
+![Image 19: HRF's Weekly Financial Freedom Report #104](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRFs-Weekly-Financial-Freedom-Report-103-V1.png)
+
+#### HRF’s Weekly Financial Freedom Report #104
+
+Good morning readers, We begin this week in Iran, where currency collapse has turned into a call for political change. Across the country, mass protests erupted after the rial reached yet another record low, erasing people’s purchasing power and driving up the cost of living. The regime responded with violence and the arrests of thousands of Iranians, coupled with a nationwide communications blackout, reflecting the tightly intertwined nature of financial collapse, repression, and information control. In freedom tech news, hundreds of thousands of Ugandans are turning to Bitchat, a peer-to-peer messaging app that works without the internet, as the regime shut down internet services the day before the country’s general elections. The app enables phones to relay messages directly to one another over Bluetooth, helping people stay connected even if the internet is turned off.
+
+![Image 20: HRF celebrates the release of Venezuelan prisoners of conscience and calls for the release of all those held arbitrarily](https://hrf.org/wp-content/uploads/2026/01/Latest-Thumbnail-HRF-celebrates-the-release-of-Venezuelan-prisoners-of-conscience-and-calls-for-the-release-of-all-those-held-arbitrarily-V1.png)
+
+#### HRF celebrates the release of Venezuelan prisoners of conscience and calls for the release of all those held arbitrarily
+
+The Human Rights Foundation (HRF) welcomes the release of a group of Venezuelan prisoners of conscience, including the 2025 Thulani Maseko Justice Prize laureate, Rocío San Miguel. Last week, the regime said it would release many political prisoners. Prior to this announcement, the regime had imprisoned more than 800 human rights defenders, opposition members, journalists, and protesters, whom it subjected to torture and inhumane treatment while in detention. However, since the announcement, only 74 people have been released, according to independent organizations. Thousands of family members of remaining prisoners have been left in anguish, waiting outside of detention centers to receive information on their loved ones. The regime must release all those still held under politically motivated charges and give way to a peaceful democratic transition.

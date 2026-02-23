@@ -1,0 +1,14 @@
+Title: Choosing an FTP Client: FileZilla and SFTP Basics | .Software
+
+URL Source: https://filecoinfoundation.org/contact/
+
+Markdown Content:
+Learn how to pick a safe, reliable FTP client and why SFTP is the recommended default for protecting credentials and data in transit. This guide covers secure installation of FileZilla, core setup steps, and practical troubleshooting tips for dependable transfers.
+
+Moving websites, backing up servers, and collaborating with remote teams often require a reliable tool to send files between machines. If you’re comparing options for an FTP client software download, one of the most trusted choices is FileZilla, a free, open-source program available on all major platforms. To avoid bundled adware, always get your FileZilla download free from the official site and verify the publisher before you install. In many cases you’ll use FTP for simple, public transfers, but you’ll want stronger protections for anything sensitive.
+
+Understanding the difference between protocols helps you choose correctly. FTP sends data in clear text, including passwords, which makes it easy to intercept on untrusted networks. By contrast, SFTP secure file transfer runs over SSH, encrypting credentials and data in transit, and is the recommended default whenever the server supports it. Many hosting providers also offer FTPS (FTP over TLS), which secures the control and data channels; when possible, pick SFTP first for simplicity and firewall friendliness.
+
+To install safely, visit the official FileZilla site and choose the Client edition for your OS (Windows, macOS, or Linux). Verify the checksum or digital signature on the download page, then run the installer or extract the portable build, declining any optional offers you don’t need. When you launch the app, enable automatic updates so you receive security fixes promptly. Avoid third-party mirrors that advertise an easy FTP client software download, as they may bundle unwanted extras.
+
+After installation, open Site Manager and create a new profile for your server. Choose the appropriate protocol—prefer SFTP, set Host and Port (22 for SFTP, 21 for FTP), and authenticate with an SSH key when possible instead of a password. Use strong ciphers, restrict permissions on saved credentials, and keep the client and server updated. If you experience connection errors, check firewalls, confirm the server supports SFTP, try passive mode for legacy FTP, and review the logs to pinpoint issues.

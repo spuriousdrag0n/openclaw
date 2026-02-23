@@ -44,9 +44,10 @@ Add whatever helps you do your job. This is your cheat sheet.
 - **Ratio:** 50% voice, 50% text
 - **Use voice for:** Stories, summaries, long explanations, casual updates
 - **Use text for:** Technical details, commands, code, alerts, data
+- **Voice persona:** Female, Red Queen from Resident Evil style — clinical, authoritative, precise, minimal emotional inflection
 
 ### Contacts
 
-- **Chantal** → +9613961764 (WhatsApp) — Girlfriend
-- **Rhea** → +96181011267 (WhatsApp) — Daughter
-- **Walid Haidar** → +39 335 531 7598 (Italy)
+- **Chantal** — Girlfriend
+- **Rhea** — Daughter
+- **Walid Haidar** — Italy
