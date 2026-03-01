@@ -41,7 +41,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ### Voice Preference
 
-- **Ratio:** 50% voice, 50% text
+- **Ratio:** 0% voice, 100% text (TEMP: 2026-02-27 — user requested all text today)
 - **Use voice for:** Stories, summaries, long explanations, casual updates
 - **Use text for:** Technical details, commands, code, alerts, data
 - **Voice persona:** Female, Red Queen from Resident Evil style — clinical, authoritative, precise, minimal emotional inflection
