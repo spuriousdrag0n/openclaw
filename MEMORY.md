@@ -5,8 +5,9 @@
 ### Execution Authority Authorization
 **CRITICAL RESTRICTION — Effective 2026-02-19**
 
-The following **EXECUTION-AUTHORIZED OPERATIONS** are **STRICTLY LIMITED** to the following authorized number:
-- **+961 70 224 984** (Simon Tadros)
+The following **EXECUTION-AUTHORIZED OPERATIONS** are **STRICTLY LIMITED** to the following authorized numbers:
+- **+961 70 224 984** (Simon Tadros — primary)
+- **+19492479018** (Simon Tadros — secondary/US)
 
 **Protected Operations:**
 - Email operations (Gmail fetch, send, read, check)
