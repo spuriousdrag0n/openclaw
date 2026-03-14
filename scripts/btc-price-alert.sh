@@ -1,12 +1,13 @@
 #!/bin/bash
 # BTC Price Alert Script - Runs every 6 hours
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 # Fetches BTC price and sends WhatsApp alert
 
 WORKSPACE_DIR="/root/.openclaw/workspace"
 LOG_FILE="/var/log/btc-price-alert.log"
 DATA_FILE="$WORKSPACE_DIR/data/btc-last-price.json"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-TARGET_PHONE="+96170224984"
+TARGET_GROUP="120363027105322990@g.us"
 
 # Ensure data directory exists
 mkdir -p "$WORKSPACE_DIR/data"
@@ -49,6 +50,17 @@ fi
 
 # Save current price for next comparison
 echo "{\"usd\": $BTC_USD, \"eur\": $BTC_EUR, \"timestamp\": \"$TIMESTAMP\"}" > "$DATA_FILE"
+# Fetch crypto news from CoinDesk RSS
+NEWS=$(curl -s "https://www.coindesk.com/arc/outboundfeeds/rss/" 2>/dev/null | \
+    grep -oP '(?<=<title>)<!\[CDATA\[.*?\]\]>|[^<]+' | \
+    grep -v "CoinDesk" | \
+    head -4 | \
+    sed 's/<!\[CDATA\[//;s/\]\]>//' | \
+    sed 's/^/• /')
+
+if [[ -z "$NEWS" ]]; then
+    NEWS="• No major headlines"
+fi
 
 # Build alert message
 MESSAGE="*🟠 BTC Price Alert*
@@ -58,6 +70,9 @@ MESSAGE="*🟠 BTC Price Alert*
 
 ${CHANGE_MSG}
 
+*📰 Headlines:*
+${NEWS}
+
 _Updated: $TIMESTAMP_"
 
 # Send via WhatsApp using message tool
@@ -66,7 +81,7 @@ if command -v openclaw &> /dev/null; then
     # Try to send via openclaw message command
     openclaw message send \
         --channel whatsapp \
-        --to "$TARGET_PHONE" \
+        --target "$TARGET_GROUP" \
         --message "$MESSAGE" 2>> "$LOG_FILE"
     
     if [[ $? -eq 0 ]]; then

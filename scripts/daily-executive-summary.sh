@@ -1,7 +1,9 @@
 #!/bin/bash
 # Daily Executive Summary for Simon Tadros
 # Runs at 8:00 AM daily
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 export GOG_ACCOUNT=spuriousdragon@gmail.com
 LOG_FILE="/var/log/daily-executive-summary.log"
 DATE=$(date '+%Y-%m-%d %H:%M')
@@ -95,10 +97,10 @@ SUMMARY+="
 "
 
 if [ -n "$CRYPTO_REWARDS" ]; then
-    SUMMARY+"$CRYPTO_REWARDS
+    SUMMARY+="$CRYPTO_REWARDS
 "
 else
-    SUMMARY+"No crypto rewards detected in email
+    SUMMARY+="No crypto rewards detected in email
 "
 fi
 
@@ -135,6 +137,6 @@ SUMMARY+="
 RedQueen Systems | Daily Brief"
 
 # Send via WhatsApp
-openclaw message send --to +96170224984 --message "$SUMMARY" 2>&1 >> $LOG_FILE
+openclaw message send --target 120363027105322990@g.us --message "$SUMMARY" 2>&1 >> $LOG_FILE
 
 echo "[$DATE] Summary sent." >> $LOG_FILE
