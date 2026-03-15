@@ -4,6 +4,10 @@
     "github": {
       "version": "1.0.0",
       "installedAt": 1771559876662
+    },
+    "twitter-x-api": {
+      "version": "1.0.0",
+      "installedAt": 1773521042551
     }
   }
 }

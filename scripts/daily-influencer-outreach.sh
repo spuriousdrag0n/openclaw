@@ -1,5 +1,6 @@
 #!/bin/bash
 # Daily Influencer Outreach Script
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 # Sends AI influencer solution pitches to crypto/human rights contacts
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
