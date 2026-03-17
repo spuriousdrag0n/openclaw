@@ -8,6 +8,26 @@
     "twitter-x-api": {
       "version": "1.0.0",
       "installedAt": 1773521042551
+    },
+    "bird-twitter": {
+      "version": "1.0.0",
+      "installedAt": 1773628454762
+    },
+    "self-improving-agent": {
+      "version": "3.0.4",
+      "installedAt": 1773630781754
+    },
+    "skill-finder-cn": {
+      "version": "1.0.0",
+      "installedAt": 1773631946511
+    },
+    "twitter-scrape": {
+      "version": "1.0.0",
+      "installedAt": 1773633204285
+    },
+    "chat": {
+      "version": "1.1.0",
+      "installedAt": 1773711670863
     }
   }
 }
