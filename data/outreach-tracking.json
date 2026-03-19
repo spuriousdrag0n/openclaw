@@ -23,8 +23,20 @@
     "info@hrf_org": {
       "contacted": true,
       "date": "2026-03-18"
+    },
+    "mart@martbelcher_com": {
+      "contacted": true,
+      "date": "2026-03-19"
+    },
+    "hello@anitaposch_com": {
+      "contacted": true,
+      "date": "2026-03-19"
+    },
+    "roya@womensannex_org": {
+      "contacted": true,
+      "date": "2026-03-19"
     }
   },
-  "last_run": "2026-03-18",
+  "last_run": "2026-03-19",
   "total_sent": 0
 }
