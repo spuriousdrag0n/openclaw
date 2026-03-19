@@ -1,5 +1,30 @@
 {
-  "contacts": {},
-  "last_run": "2026-03-16",
+  "contacts": {
+    "neeraj@coincenter_org": {
+      "contacted": true,
+      "date": "2026-03-17"
+    },
+    "peter@coincenter_org": {
+      "contacted": true,
+      "date": "2026-03-17"
+    },
+    "info@coincenter_org": {
+      "contacted": true,
+      "date": "2026-03-17"
+    },
+    "jilliancyork@gmail_com": {
+      "contacted": true,
+      "date": "2026-03-18"
+    },
+    "alex@gladstein_org": {
+      "contacted": true,
+      "date": "2026-03-18"
+    },
+    "info@hrf_org": {
+      "contacted": true,
+      "date": "2026-03-18"
+    }
+  },
+  "last_run": "2026-03-18",
   "total_sent": 0
 }

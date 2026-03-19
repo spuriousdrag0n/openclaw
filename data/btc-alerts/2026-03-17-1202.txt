@@ -1,0 +1,19 @@
+🚨 BITCOIN ALERT 🚨
+
+💰 Current Price
+━━━━━━━━━━━━━━
+💵 USD: $
+💶 EUR: €
+📊 24h Change: -0.03% 📉
+
+📰 Latest Crypto News:
+1. Cango is selling off its bitcoin stash to pay down debt and fund an...
+   👉 https://www.coindesk.com/markets/2026/03/17/cango-is-selling-off-its-bitcoin-stash-to-pay-down-debt-and-fund-an-ai-makeover
+2. Bitcoin consolidation seen with BTC remaining 'overbought' after pu...
+   👉 https://www.coindesk.com/markets/2026/03/17/bitcoin-consolidation-seen-with-btc-remaining-overbought-after-pullback
+3. Equity, oil and bond markets have freaked out. Bitcoin traders have...
+   👉 https://www.coindesk.com/markets/2026/03/17/equity-oil-and-bond-markets-have-freaked-out-bitcoin-traders-have-not
+
+⏰ 12:02 CET | Mar 17, 2026
+
+Logged locally at /root/.openclaw/workspace/data/btc-alerts/2026-03-17-1202.txt

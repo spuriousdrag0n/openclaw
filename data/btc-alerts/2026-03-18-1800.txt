@@ -1,0 +1,19 @@
+🚨 BITCOIN ALERT 🚨
+
+💰 Current Price
+━━━━━━━━━━━━━━
+💵 USD: $71328
+💶 EUR: €61969
+📊 24h Change: -3.79% 📉
+
+📰 Latest Crypto News:
+1. Crypto Long & Short: When price stops working, yield starts mattering
+   👉 https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-long-and-short-when-price-stops-working-yield-starts-mattering
+2. The Protocol: Ethereum community debates foundation’s new mandate d...
+   👉 https://www.coindesk.com/tech/2026/03/18/the-protocol-ethereum-community-debates-foundation-s-new-mandate-document
+3. Former Binance CEO CZ waves off accusations on Iran, terror ties
+   👉 https://www.coindesk.com/policy/2026/03/18/former-binance-ceo-cz-waves-off-accusations-on-iran-terror-ties
+
+⏰ 18:00 CET | Mar 18, 2026
+
+Logged locally at /root/.openclaw/workspace/data/btc-alerts/2026-03-18-1800.txt

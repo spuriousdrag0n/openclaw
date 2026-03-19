@@ -1,77 +1,65 @@
 #!/bin/bash
-export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+export PATH="/root/.nvm/versions/node/v22.22.0/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 export GOG_ACCOUNT=spuriousdragon@gmail.com
 LOG_FILE="/var/log/email-action-items.log"
 DATE=$(date +%Y-%m-%d-%H:%M)
-TARGET="120363027105322990@g.us"
+SUMMARY_DIR="/root/.openclaw/workspace/data/email-actions"
+SUMMARY_FILE="$SUMMARY_DIR/$(date +%Y-%m-%d).txt"
 
-echo "[$DATE] Starting email analysis..." >> $LOG_FILE
+mkdir -p "$SUMMARY_DIR"
 
-# Get unread emails from last 24h
+echo "[$DATE] Starting email analysis..." >> "$LOG_FILE"
+
 EMAILS_JSON=$(gog gmail search "newer_than:1d" --max 20 --json 2>/dev/null)
 
 if [ -z "$EMAILS_JSON" ] || [ "$EMAILS_JSON" = "{\"threads\":[]}" ]; then
-    MSG="*📧 Daily Email Check*
-
-No new emails requiring action.
-
-_$(date +%A-%B-%d)_"
-    openclaw message send --channel whatsapp --target "$TARGET" --message "$MSG" 2>&1 >> $LOG_FILE
-    echo "[$DATE] No emails found" >> $LOG_FILE
+    {
+        echo "*📧 Daily Email Check*"
+        echo
+        echo "No new emails requiring action."
+        echo
+        date +"_%A-%B-%d_"
+        echo "_RedQueen Systems | Email Intelligence_"
+    } > "$SUMMARY_FILE"
+    echo "[$DATE] No emails found" >> "$LOG_FILE"
     exit 0
 fi
 
-# Extract actionable items
 URGENT=$(echo "$EMAILS_JSON" | grep -iE "(urgent|asap|deadline|payment due|invoice|suspension|abuse|complaint|legal|court|police)" | head -5)
 OPPORTUNITIES=$(echo "$EMAILS_JSON" | grep -iE "(opportunity|partnership|investment|funding|grant|pitch|speaking|event|conference|reward|airdrop|claim)" | head -5)
 REPLIES_NEEDED=$(echo "$EMAILS_JSON" | grep -iE "(re:|fw:|question|can you|could you|please respond|waiting for your|let me know)" | head -5)
 
-# Build action items message
-MSG="*📧 DAILY EMAIL ACTION ITEMS*
-_$(date +%A-%B-%d)_
+{
+    echo "*📧 DAILY EMAIL ACTION ITEMS*"
+    date +"_%A-%B-%d_"
+    echo
 
-"
+    if [ -n "$URGENT" ]; then
+        echo "🚨 *URGENT - Reply Today:*"
+        echo "$URGENT" | sed "s/^/• /"
+        echo
+    fi
 
-# Urgent section
-if [ -n "$URGENT" ]; then
-    MSG+="🚨 *URGENT - Reply Today:*
-"
-    MSG+=$(echo "$URGENT" | sed "s/^/• /")
-    MSG+="
+    if [ -n "$OPPORTUNITIES" ]; then
+        echo "💰 *OPPORTUNITIES - Reply Soon:*"
+        echo "$OPPORTUNITIES" | sed "s/^/• /"
+        echo
+    fi
 
-"
-fi
+    if [ -n "$REPLIES_NEEDED" ]; then
+        echo "📩 *REPLIES NEEDED:*"
+        echo "$REPLIES_NEEDED" | sed "s/^/• /"
+        echo
+    fi
 
-# Opportunities section
-if [ -n "$OPPORTUNITIES" ]; then
-    MSG+="💰 *OPPORTUNITIES - Reply Soon:*
-"
-    MSG+=$(echo "$OPPORTUNITIES" | sed "s/^/• /")
-    MSG+="
+    if [ -z "$URGENT" ] && [ -z "$OPPORTUNITIES" ] && [ -z "$REPLIES_NEEDED" ]; then
+        echo "✅ No urgent action items today."
+        echo
+        echo "*Tip:* Archive or delete emails to maintain inbox zero."
+        echo
+    fi
 
-"
-fi
+    echo "_RedQueen Systems | Email Intelligence_"
+} > "$SUMMARY_FILE"
 
-# Replies needed section
-if [ -n "$REPLIES_NEEDED" ]; then
-    MSG+="📩 *REPLIES NEEDED:*
-"
-    MSG+=$(echo "$REPLIES_NEEDED" | sed "s/^/• /")
-    MSG+="
-
-"
-fi
-
-# If nothing actionable found
-if [ -z "$URGENT" ] && [ -z "$OPPORTUNITIES" ] && [ -z "$REPLIES_NEEDED" ]; then
-    MSG+="✅ No urgent action items today.
-
-*Tip:* Archive or delete emails to maintain inbox zero."
-fi
-
-MSG+="
-_RedQueen Systems | Email Intelligence_"
-
-# Send message
-openclaw message send --channel whatsapp --target "$TARGET" --message "$MSG" 2>&1 >> $LOG_FILE
-echo "[$DATE] Analysis sent" >> $LOG_FILE
+echo "[$DATE] Analysis written to $SUMMARY_FILE" >> "$LOG_FILE"

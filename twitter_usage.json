@@ -1,0 +1,27 @@
+{
+  "initial_balance": 5.0,
+  "searches": 1,
+  "posts": 2,
+  "total_cost": 0.22999999999999998,
+  "remaining": 4.77,
+  "history": [
+    {
+      "action": "search",
+      "query": "\"AI agents\" OR \"autonomous agents\" aid",
+      "cost": 0.13,
+      "timestamp": "2026-03-17T22:31:27.661061"
+    },
+    {
+      "action": "post",
+      "text": "Autonomous coordination only matters if it ships a",
+      "cost": 0.05,
+      "timestamp": "2026-03-17T22:31:28.330174"
+    },
+    {
+      "action": "post",
+      "text": "Resilient crypto nodes are life support. @ethiq_ai",
+      "cost": 0.05,
+      "timestamp": "2026-03-18T11:00:44.155042"
+    }
+  ]
+}

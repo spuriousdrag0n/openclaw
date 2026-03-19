@@ -1,0 +1,19 @@
+🚨 BITCOIN ALERT 🚨
+
+💰 Current Price
+━━━━━━━━━━━━━━
+💵 USD: $73940
+💶 EUR: €64079
+📊 24h Change: +0.29% 📈
+
+📰 Latest Crypto News:
+1. Bitcoin’s rally runs into 'sell the news' risk ahead of Fed decision
+   👉 https://www.coindesk.com/markets/2026/03/18/bitcoin-s-rally-runs-into-sell-the-news-risk-ahead-of-fed-decision
+2. Bitcoin holds steady at $74,000 as traders turn cautious before Fed...
+   👉 https://www.coindesk.com/markets/2026/03/18/bitcoin-holds-steady-at-usd74-000-as-traders-turn-cautious-before-fed-meeting
+3. Bitcoin is stuck below $75,000 even after landmark SEC, CFTC crypto...
+   👉 https://www.coindesk.com/markets/2026/03/18/bitcoin-s-progress-above-usd75-000-elusive-after-sec-cftc-crypto-guidance
+
+⏰ 12:00 CET | Mar 18, 2026
+
+Logged locally at /root/.openclaw/workspace/data/btc-alerts/2026-03-18-1200.txt
