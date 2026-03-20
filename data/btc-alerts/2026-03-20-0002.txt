@@ -1,0 +1,19 @@
+🚨 BITCOIN ALERT 🚨
+
+💰 Current Price
+━━━━━━━━━━━━━━
+💵 USD: $70208
+💶 EUR: €60637
+📊 24h Change: -1.31% 📉
+
+📰 Latest Crypto News:
+1. Crypto Clarity Act inches toward Senate hearing as lawmakers weigh ...
+   👉 https://www.coindesk.com/policy/2026/03/19/crypto-clarity-act-inches-toward-senate-hearing-as-lawmakers-weigh-legislative-trades
+2. DeFi risk management giant Gauntlet sees $380 million exit as OKX c...
+   👉 https://www.coindesk.com/tech/2026/03/19/defi-risk-management-giant-gauntlet-sees-usd380-million-exit-as-okx-crypto-campaign-ends
+3. Crypto markets – and the American people – deserve clarity
+   👉 https://www.coindesk.com/opinion/2026/03/19/crypto-markets-and-the-american-people-deserve-clarity
+
+⏰ 00:02 CET | Mar 20, 2026
+
+Logged locally at /root/.openclaw/workspace/data/btc-alerts/2026-03-20-0002.txt

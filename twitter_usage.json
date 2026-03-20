@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 1,
-  "posts": 3,
-  "total_cost": 0.27999999999999997,
-  "remaining": 4.72,
+  "posts": 4,
+  "total_cost": 0.32999999999999996,
+  "remaining": 4.67,
   "history": [
     {
       "action": "search",
@@ -28,6 +28,12 @@
       "text": "Aid settles with math now. @ethiq_aid routes peer-",
       "cost": 0.05,
       "timestamp": "2026-03-19T11:00:46.528820"
+    },
+    {
+      "action": "post",
+      "text": "Prediction markets are just telemetry unless agent",
+      "cost": 0.05,
+      "timestamp": "2026-03-20T01:34:28.606849"
     }
   ]
 }
