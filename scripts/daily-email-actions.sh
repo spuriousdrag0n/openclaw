@@ -14,52 +14,64 @@ EMAILS_JSON=$(gog gmail search "newer_than:1d" --max 20 --json 2>/dev/null)
 
 if [ -z "$EMAILS_JSON" ] || [ "$EMAILS_JSON" = "{\"threads\":[]}" ]; then
     {
-        echo "*📧 Daily Email Check*"
+        echo "📧 Daily Email Check"
         echo
         echo "No new emails requiring action."
         echo
-        date +"_%A-%B-%d_"
-        echo "_RedQueen Systems | Email Intelligence_"
+        date +"%A, %B %d"
+        echo "RedQueen Systems | Email Intelligence"
     } > "$SUMMARY_FILE"
+    MESSAGE=$(cat "$SUMMARY_FILE")
     echo "[$DATE] No emails found" >> "$LOG_FILE"
-    exit 0
+else
+    URGENT=$(echo "$EMAILS_JSON" | grep -iE "(urgent|asap|deadline|payment due|invoice|suspension|abuse|complaint|legal|court|police)" | head -5)
+    OPPORTUNITIES=$(echo "$EMAILS_JSON" | grep -iE "(opportunity|partnership|investment|funding|grant|pitch|speaking|event|conference|reward|airdrop|claim)" | head -5)
+    REPLIES_NEEDED=$(echo "$EMAILS_JSON" | grep -iE "(re:|fw:|question|can you|could you|please respond|waiting for your|let me know)" | head -5)
+
+    {
+        echo "📧 DAILY EMAIL ACTION ITEMS"
+        date +"%A, %B %d"
+        echo
+
+        if [ -n "$URGENT" ]; then
+            echo "🚨 URGENT - Reply Today:"
+            echo "$URGENT" | sed "s/^/• /"
+            echo
+        fi
+
+        if [ -n "$OPPORTUNITIES" ]; then
+            echo "💰 OPPORTUNITIES - Reply Soon:"
+            echo "$OPPORTUNITIES" | sed "s/^/• /"
+            echo
+        fi
+
+        if [ -n "$REPLIES_NEEDED" ]; then
+            echo "📩 REPLIES NEEDED:"
+            echo "$REPLIES_NEEDED" | sed "s/^/• /"
+            echo
+        fi
+
+        if [ -z "$URGENT" ] && [ -z "$OPPORTUNITIES" ] && [ -z "$REPLIES_NEEDED" ]; then
+            echo "✅ No urgent action items today."
+            echo
+            echo "Tip: Archive or delete emails to maintain inbox zero."
+            echo
+        fi
+
+        echo "RedQueen Systems | Email Intelligence"
+    } > "$SUMMARY_FILE"
+    
+    MESSAGE=$(cat "$SUMMARY_FILE")
+    echo "[$DATE] Analysis written to $SUMMARY_FILE" >> "$LOG_FILE"
 fi
 
-URGENT=$(echo "$EMAILS_JSON" | grep -iE "(urgent|asap|deadline|payment due|invoice|suspension|abuse|complaint|legal|court|police)" | head -5)
-OPPORTUNITIES=$(echo "$EMAILS_JSON" | grep -iE "(opportunity|partnership|investment|funding|grant|pitch|speaking|event|conference|reward|airdrop|claim)" | head -5)
-REPLIES_NEEDED=$(echo "$EMAILS_JSON" | grep -iE "(re:|fw:|question|can you|could you|please respond|waiting for your|let me know)" | head -5)
+# Send email to spuriousdragon@gmail.com
+SUBJECT="Daily Email Action Items - $(date +'%A, %B %d')"
 
-{
-    echo "*📧 DAILY EMAIL ACTION ITEMS*"
-    date +"_%A-%B-%d_"
-    echo
+echo "$MESSAGE" | gog gmail send --to spuriousdragon@gmail.com --subject "$SUBJECT" --body - 2>/dev/null
 
-    if [ -n "$URGENT" ]; then
-        echo "🚨 *URGENT - Reply Today:*"
-        echo "$URGENT" | sed "s/^/• /"
-        echo
-    fi
-
-    if [ -n "$OPPORTUNITIES" ]; then
-        echo "💰 *OPPORTUNITIES - Reply Soon:*"
-        echo "$OPPORTUNITIES" | sed "s/^/• /"
-        echo
-    fi
-
-    if [ -n "$REPLIES_NEEDED" ]; then
-        echo "📩 *REPLIES NEEDED:*"
-        echo "$REPLIES_NEEDED" | sed "s/^/• /"
-        echo
-    fi
-
-    if [ -z "$URGENT" ] && [ -z "$OPPORTUNITIES" ] && [ -z "$REPLIES_NEEDED" ]; then
-        echo "✅ No urgent action items today."
-        echo
-        echo "*Tip:* Archive or delete emails to maintain inbox zero."
-        echo
-    fi
-
-    echo "_RedQueen Systems | Email Intelligence_"
-} > "$SUMMARY_FILE"
-
-echo "[$DATE] Analysis written to $SUMMARY_FILE" >> "$LOG_FILE"
+if [ $? -eq 0 ]; then
+    echo "[$DATE] Email sent to spuriousdragon@gmail.com" >> "$LOG_FILE"
+else
+    echo "[$DATE] ERROR: Failed to send email" >> "$LOG_FILE"
+fi

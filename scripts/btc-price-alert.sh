@@ -1,5 +1,5 @@
 #!/bin/bash
-# BTC Price Alert with Links (logged output)
+# BTC Price Alert with WhatsApp delivery
 
 LOG_FILE="/var/log/btc-price-alert.log"
 exec >> "$LOG_FILE" 2>&1
@@ -9,6 +9,9 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting BTC alert..."
 SUMMARY_DIR="/root/.openclaw/workspace/data/btc-alerts"
 mkdir -p "$SUMMARY_DIR"
 SUMMARY_FILE="$SUMMARY_DIR/$(date '+%Y-%m-%d-%H%M').txt"
+
+# WhatsApp group for BTC alerts
+WHATSAPP_GROUP="120363027105322990@g.us"
 
 # Fetch BTC price
 CACHE_BUSTER=$(date +%s)
@@ -88,11 +91,17 @@ MESSAGE=$(cat <<MSG
 ${NEWS_WITH_LINKS}
 
 ⏰ $(date '+%H:%M %Z') | $(date '+%b %d, %Y')
-
-Logged locally at ${SUMMARY_FILE}
 MSG
 )
 
+# Save to file
 printf '%s\n' "$MESSAGE" | tee "$SUMMARY_FILE"
 
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] Saved BTC alert to $SUMMARY_FILE"
+# Send to WhatsApp group
+/root/.nvm/versions/node/v22.22.0/bin/openclaw message send --channel whatsapp --target "$WHATSAPP_GROUP" --message "$MESSAGE"
+
+if [ $? -eq 0 ]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] BTC alert sent to WhatsApp group and saved to $SUMMARY_FILE"
+else
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: Failed to send WhatsApp message, but saved to $SUMMARY_FILE"
+fi
