@@ -1,0 +1,4 @@
+#!/bin/bash
+TRIGGER_FILE="/root/.openclaw/workspace/data/whatsapp_ad_trigger.json"
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Trigger" >> /var/log/whatsapp-ad-agent.log
+echo "{\"action\":\"send_whatsapp_ad\",\"timestamp\":\"$(date -Iseconds)\",\"source\":\"cron\"}" > "$TRIGGER_FILE"

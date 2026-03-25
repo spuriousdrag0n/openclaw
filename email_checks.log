@@ -99,3 +99,29 @@ Email Check: 2026-03-20 14:00
 ========================================
 Completed at 14:00
 
+========================================
+Email Check: 2026-03-21 08:00
+========================================
+***
+--- simon@merkler00t.com ---
+✗ Error: b'Invalid password, please try again or go to https://forwardemail.net/my-account/domains/merkler00t.com/aliases and click "Generate Password"'
+***
+--- spuriousdragon@gmail.com (Gmail) ---
+✗ Error: Expecting value: line 1 column 1 (char 0)
+***
+========================================
+Completed at 08:00
+***
+========================================
+Email Check: 2026-03-22 14:00
+========================================
+
+--- simon@merkler00t.com ---
+✗ Error: name 'datetime' is not defined
+
+--- spuriousdragon@gmail.com (Gmail) ---
+✗ Error: Expecting value: line 1 column 1 (char 0)
+
+========================================
+Completed at 14:00
+

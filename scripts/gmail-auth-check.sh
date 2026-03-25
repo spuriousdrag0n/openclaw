@@ -1,5 +1,6 @@
 #!/bin/bash
 export PATH="/root/.nvm/versions/node/v22.22.0/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+source /root/.openclaw/workspace/scripts/env-setup.sh
 LOG_FILE="/var/log/gmail-auth-reminder.log"
 DATE=$(date +%Y-%m-%d-%H:%M)
 TARGET="120363027105322990@g.us"

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+source /root/.openclaw/workspace/scripts/env-setup.sh
 cd /root/.openclaw/workspace
 LOG_FILE="/root/.openclaw/workspace/moltbook_engagement.log"
 {

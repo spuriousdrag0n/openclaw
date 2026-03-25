@@ -1,5 +1,5 @@
 #!/bin/bash
-# Whisper Auto - Local first, API fallback
+# Whisper Auto - API first, local fallback
 
 COMMAND="$1"
 shift
@@ -26,7 +26,6 @@ done
 
 if [ -z "$FILE" ]; then
     echo "Usage: whisper-auto.sh transcribe --file <audio_file> [--model <model>]"
-    echo "Models: tiny, base, small, medium, large, turbo"
     exit 1
 fi
 
@@ -35,7 +34,20 @@ if [ ! -f "$FILE" ]; then
     exit 1
 fi
 
-# Try local Whisper first
+# Try OpenAI API FIRST
+echo "[*] Trying OpenAI Whisper API..." >&2
+API_OUTPUT=$(/root/.nvm/versions/node/v22.22.0/bin/openclaw skills run openai-whisper-api transcribe --file "$FILE" 2>&1)
+API_EXIT=$?
+
+if [ $API_EXIT -eq 0 ] && [ -n "$API_OUTPUT" ] && [[ ! "$API_OUTPUT" == *"error"* ]]; then
+    echo "$API_OUTPUT"
+    echo "[✓] API transcription complete" >&2
+    exit 0
+fi
+
+echo "[✗] API failed or returned error, trying local..." >&2
+
+# Local fallback
 echo "[*] Trying local Whisper (model: $MODEL)..." >&2
 LOCAL_OUTPUT=$(/usr/local/bin/whisper "$FILE" --model "$MODEL" --output_format txt --output_dir /tmp 2>&1)
 LOCAL_EXIT=$?
@@ -50,18 +62,5 @@ if [ $LOCAL_EXIT -eq 0 ]; then
     fi
 fi
 
-echo "[✗] Local failed, trying API..." >&2
-
-# API fallback
-echo "[*] Trying OpenAI Whisper API..." >&2
-API_OUTPUT=$(/root/.nvm/versions/node/v22.22.0/bin/openclaw skills run openai-whisper-api transcribe --file "$FILE" 2>&1)
-API_EXIT=$?
-
-if [ $API_EXIT -eq 0 ] && [ -n "$API_OUTPUT" ]; then
-    echo "$API_OUTPUT"
-    echo "[✓] API transcription complete" >&2
-    exit 0
-fi
-
-echo "[✗] Both local and API transcription failed" >&2
+echo "[✗] Both API and local transcription failed" >&2
 exit 1

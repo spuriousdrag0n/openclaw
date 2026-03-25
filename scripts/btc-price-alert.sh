@@ -1,4 +1,6 @@
 #!/bin/bash
+export PATH="/root/.nvm/versions/node/v22.22.0/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+source /root/.openclaw/workspace/scripts/env-setup.sh
 # BTC Price Alert with WhatsApp delivery
 
 LOG_FILE="/var/log/btc-price-alert.log"

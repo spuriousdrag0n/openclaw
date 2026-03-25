@@ -1,5 +1,6 @@
 #!/bin/bash
 # Daily Influencer Outreach Script
+source /root/.openclaw/workspace/scripts/env-setup.sh
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 # Sends AI influencer solution pitches to crypto/human rights contacts
 

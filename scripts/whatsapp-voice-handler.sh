@@ -1,5 +1,6 @@
 #!/bin/bash
 # WhatsApp Voice Message Handler - Auto-transcribe voice messages
+source /root/.openclaw/workspace/scripts/env-setup.sh
 
 # This script is designed to be called by OpenClaw when a voice message is received
 # Usage: whatsapp-voice-handler.sh <audio_file_path> <sender_id> <chat_id>

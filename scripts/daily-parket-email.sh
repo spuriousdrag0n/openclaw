@@ -1,5 +1,6 @@
 #!/bin/bash
 # Daily email to Federal Prosecutor's Office - Simon Tadros Case
+source /root/.openclaw/workspace/scripts/env-setup.sh
 
 RECIPIENT="parquet.federal@just.fgov.be"
 SUBJECT="Simon Tadros - Urgent: Case Reassignment and Administrative Failure"

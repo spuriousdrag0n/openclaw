@@ -32,6 +32,10 @@
     "moltbook-interact": {
       "version": "1.0.1",
       "installedAt": 1773762842030
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774254321649
     }
   }
 }

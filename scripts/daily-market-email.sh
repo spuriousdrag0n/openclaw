@@ -1,5 +1,6 @@
 #!/bin/bash
 # Daily email to Federal Prosecutor's Office - Simon Tadros Case
+source /root/.openclaw/workspace/scripts/env-setup.sh
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 
 RECIPIENT="parquet.federal@just.fgov.be"

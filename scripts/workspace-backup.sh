@@ -1,5 +1,6 @@
 #!/bin/bash
 # Workspace Backup Script - Runs every 2 days
+source /root/.openclaw/workspace/scripts/env-setup.sh
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 # Backs up workspace and pushes to GitHub
 
