@@ -12,8 +12,37 @@ from datetime import datetime
 
 STATE_DIR = "/root/.openclaw/workspace/data"
 STATE_FILE = f"{STATE_DIR}/merkleroot_ad_state_once.json"
-LOG_FILE = "/var/log/merkleroot-ad-once.log"
+LOG_FILE = "/var/log/merkleroot-cron.log"
 TRIGGER_FILE = f"{STATE_DIR}/whatsapp_ad_trigger.json"
+AD_IMAGE = "/root/.openclaw/workspace/data/merkleroot_ad.jpg"
+
+AD_CAPTION = '''DEPLOYMENTS START FROM $5,000 — SCALING TO $100,000+
+
+MERKLERR00T × OPENCLAW
+Code is Law.
+
+This is not software.
+This is your AI command infrastructure.
+
+▪ Command your entire digital universe
+▪ Deploy autonomous agents across all communications
+▪ Execute real-world actions — instantly
+▪ Trade, monitor & dominate financial markets
+▪ Run prediction intelligence systems
+▪ Deploy autonomous AI engineering teams
+▪ Control servers, systems & physical infrastructure
+▪ Generate revenue pipelines automatically
+▪ Gather intelligence at global scale
+▪ Execute any workflow, any logic, anywhere
+▪ Operate 24/7 — without limits
+
+Built for billionaires, operators & elite corporations.
+
+You don't buy tools.
+You deploy power.
+
+Let's discuss:
+https://wa.me/+96181381671'''
 
 def log(msg):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -21,44 +50,46 @@ def log(msg):
         f.write(f"[{timestamp}] {msg}\n")
     print(msg)
 
-def extract_phone(line):
-    """Extract phone number from gog output line"""
+def normalize_phone(phone):
+    """Normalize phone to standard format"""
+    if not phone:
+        return None
+    cleaned = re.sub(r'[^\d+]', '', phone)
+    if not cleaned:
+        return None
+    if cleaned.startswith('+'):
+        return cleaned
+    elif cleaned.startswith('00'):
+        return '+' + cleaned[2:]
+    elif cleaned.startswith('0'):
+        return '+961' + cleaned[1:]
+    else:
+        return '+961' + cleaned
+
+def extract_phone_from_line(line):
+    """Extract phone from gog contacts output - PHONE column starts at position 62"""
     if not line.strip() or line.startswith('#') or line.startswith('RESOURCE'):
         return None
     if not line.startswith('people/'):
         return None
     
-    parts = line.strip().split()
+    # PHONE column starts at position 62 in the fixed-width format
+    if len(line) <= 62:
+        return None
     
-    # Look for phone pattern at the end of the line
-    # Collect trailing digit sequences
-    phone_parts = []
-    for part in reversed(parts):
-        clean = part.replace('-', '')
-        if clean.isdigit() or (clean.startswith('+') and clean[1:].isdigit()):
-            phone_parts.insert(0, clean)
-        else:
-            break
+    phone_col = line[62:].strip()
+    if not phone_col:
+        return None
     
-    if phone_parts:
-        raw_phone = ''.join(phone_parts)
-        # Format the phone number
-        if raw_phone.startswith('+'):
-            return raw_phone
-        elif raw_phone.startswith('00'):
-            return '+' + raw_phone[2:]
-        elif raw_phone.startswith('0'):
-            # Lebanese local format 0X XXX XXX -> +961 X XXX XXX
-            return '+961' + raw_phone[1:]
-        else:
-            # Assume Lebanese without leading 0
-            return '+961' + raw_phone
+    # Normalize and validate
+    phone = normalize_phone(phone_col)
+    if phone and phone.startswith('+') and len(re.sub(r'\D', '', phone)) >= 8:
+        return phone
     return None
 
 def get_contacts():
     """Fetch all contacts with phone numbers from gog"""
     try:
-        # Use full environment to ensure gog can find its credentials
         env = os.environ.copy()
         env['HOME'] = '/root'
         env['GOG_ACCOUNT'] = 'spuriousdragon@gmail.com'
@@ -75,14 +106,15 @@ def get_contacts():
             return []
         
         contacts = []
+        seen = set()
         for line in result.stdout.strip().split("\n"):
-            phone = extract_phone(line)
-            if phone and len(phone) >= 10:
+            phone = extract_phone_from_line(line)
+            if phone and phone not in seen:
+                seen.add(phone)
                 contacts.append(phone)
         
-        unique = list(set(contacts))
-        log(f"Found {len(unique)} unique contacts")
-        return unique
+        log(f"Found {len(contacts)} unique contacts")
+        return contacts
     except Exception as e:
         log(f"ERROR fetching contacts: {e}")
         import traceback
@@ -114,7 +146,9 @@ def send_whatsapp_ad(phone):
             "action": "send_whatsapp_ad",
             "campaign": "merkleroot",
             "target": phone,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            "image": AD_IMAGE,
+            "caption": AD_CAPTION
         }
         
         with open(TRIGGER_FILE, "w") as f:
@@ -136,7 +170,6 @@ def main():
     
     state = load_state()
     
-    # Check if already completed
     if state.get("completed"):
         log("All contacts already processed. Nothing to do.")
         sys.exit(0)
@@ -147,6 +180,15 @@ def main():
         sys.exit(1)
     
     sent_list = state.get("sent", [])
+    
+    # Clean up any malformed entries from sent list
+    cleaned_sent = []
+    for s in sent_list:
+        normalized = normalize_phone(s)
+        if normalized and normalized not in cleaned_sent:
+            cleaned_sent.append(normalized)
+    sent_list = cleaned_sent
+    
     remaining = [c for c in contacts if c not in sent_list]
     
     log(f"Total contacts: {len(contacts)}")
@@ -159,7 +201,6 @@ def main():
         save_state(state)
         sys.exit(0)
     
-    # Send to next contact
     target = remaining[0]
     log(f"Creating trigger for: {target}")
     
@@ -168,7 +209,6 @@ def main():
         state["sent"] = sent_list
         state["last_run"] = datetime.now().isoformat()
         
-        # Check if complete after this send
         if len(sent_list) >= len(contacts):
             state["completed"] = True
             log("All contacts processed. Campaign complete.")
