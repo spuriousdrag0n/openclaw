@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 2,
-  "posts": 8,
-  "total_cost": 0.6600000000000001,
-  "remaining": 4.34,
+  "posts": 10,
+  "total_cost": 0.7600000000000002,
+  "remaining": 4.24,
   "history": [
     {
       "action": "search",
@@ -64,6 +64,18 @@
       "text": "Systems beat narratives. The exit ramp from Belgia",
       "cost": 0.05,
       "timestamp": "2026-03-26T12:00:04.791839"
+    },
+    {
+      "action": "post",
+      "text": "DePIN isn't a buzzword, it's failover for humans. ",
+      "cost": 0.05,
+      "timestamp": "2026-03-27T12:00:04.944458"
+    },
+    {
+      "action": "post",
+      "text": "Transhumanism isn't chrome implants. It's sovereig",
+      "cost": 0.05,
+      "timestamp": "2026-03-28T12:00:05.861800"
     }
   ]
 }
