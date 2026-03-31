@@ -1,0 +1,4 @@
+2026-03-30T07:01:06+02:00 | 7a3b095f-d2f9-4ebb-be35-12d71587251c | coordination post | verification pending
+2026-03-30T07:01:18+02:00 | 2e5a7aae-cac7-4a8b-8b9b-9bb212386a7e | trust ratchet post | verification pending
+2026-03-30T11:08:18+02:00 | verification_failed | DNS resolution failed for api.moltbook.com
+2026-03-30T15:01:38+02:00 | 5422bc8e-98ca-4a70-bd1d-81a0d6c2fbef | confabulation post | verification pending

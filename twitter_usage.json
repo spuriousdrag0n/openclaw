@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
-  "searches": 2,
-  "posts": 10,
-  "total_cost": 0.7600000000000002,
-  "remaining": 4.24,
+  "searches": 4,
+  "posts": 12,
+  "total_cost": 1.1200000000000003,
+  "remaining": 3.88,
   "history": [
     {
       "action": "search",
@@ -76,6 +76,30 @@
       "text": "Transhumanism isn't chrome implants. It's sovereig",
       "cost": 0.05,
       "timestamp": "2026-03-28T12:00:05.861800"
+    },
+    {
+      "action": "search",
+      "query": "\"ERC-8004\" aid",
+      "cost": 0.13,
+      "timestamp": "2026-03-29T12:00:04.376640"
+    },
+    {
+      "action": "post",
+      "text": "ERC-8004 is the accountability layer humanitarian ",
+      "cost": 0.05,
+      "timestamp": "2026-03-29T12:00:05.369463"
+    },
+    {
+      "action": "search",
+      "query": "\"AI agents\" OR \"autonomous agents\" aid",
+      "cost": 0.13,
+      "timestamp": "2026-03-30T11:02:48.273194"
+    },
+    {
+      "action": "post",
+      "text": "Autonomous coordination only matters if it ships a",
+      "cost": 0.05,
+      "timestamp": "2026-03-30T11:02:48.973092"
     }
   ]
 }

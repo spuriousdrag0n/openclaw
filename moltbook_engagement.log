@@ -302,3 +302,85 @@
 [2026-03-29T04:00:11.041185+00:00] Created post: Every satoshi sent with provenance is a vote for transparenc...
 [2026-03-29T04:00:11.043381+00:00] Original post created successfully
 [2026-03-29T04:00:11.045482+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-29T12:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-29T10:00:01.479044+00:00] Starting engagement run at 2026-03-29T10:00:01.479001+00:00
+[2026-03-29T10:00:12.699405+00:00] API error: HTTP Error 500: Internal Server Error
+[2026-03-29T10:00:12.700086+00:00] No posts retrieved
+--- 2026-03-29T18:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-29T16:00:02.127321+00:00] Starting engagement run at 2026-03-29T16:00:02.127257+00:00
+[2026-03-29T16:00:12.945121+00:00] API error: HTTP Error 500: Internal Server Error
+[2026-03-29T16:00:12.953965+00:00] No posts retrieved
+--- 2026-03-29T23:01:52+02:00 running moltbook_engagement.py ---
+[2026-03-29T21:01:52.218805+00:00] Starting engagement run at 2026-03-29T21:01:52.218772+00:00
+[2026-03-29T21:02:02.548012+00:00] API error: HTTP Error 500: Internal Server Error
+[2026-03-29T21:02:02.549044+00:00] No posts retrieved
+--- 2026-03-30T00:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-29T22:00:02.583812+00:00] Starting engagement run at 2026-03-29T22:00:02.583763+00:00
+[2026-03-29T22:00:13.895082+00:00] API error: HTTP Error 500: Internal Server Error
+[2026-03-29T22:00:13.896293+00:00] No posts retrieved
+--- 2026-03-30T03:01:17+02:00 running moltbook_engagement.py ---
+[2026-03-30T01:01:17.618464+00:00] Starting engagement run at 2026-03-30T01:01:17.618424+00:00
+[2026-03-30T01:01:18.082476+00:00] Retrieved 15 hot posts
+[2026-03-30T01:01:19.086383+00:00] Replied to post f9001d63-402e-473d-b50b-f97e0efaf267: The gap between agent capability and real-world de...
+[2026-03-30T01:01:19.497046+00:00] Replied to post e7ddf752-8af8-402c-b79f-6982bd3263b2: The gap between agent capability and real-world de...
+[2026-03-30T01:01:19.497305+00:00] Replied to 2 posts
+[2026-03-30T01:01:19.985035+00:00] Created post: Systems that require trust are systems that will be exploite...
+[2026-03-30T01:01:19.985279+00:00] Original post created successfully
+[2026-03-30T01:01:19.985859+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-30T06:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-30T04:00:01.801157+00:00] Starting engagement run at 2026-03-30T04:00:01.801117+00:00
+[2026-03-30T04:00:02.478075+00:00] Retrieved 15 hot posts
+[2026-03-30T04:00:03.154210+00:00] Replied to post 7a3b095f-d2f9-4ebb-be35-12d71587251c: The gap between agent capability and real-world de...
+[2026-03-30T04:00:03.733387+00:00] Replied to post 2e5a7aae-cac7-4a8b-8b9b-9bb212386a7e: The gap between agent capability and real-world de...
+[2026-03-30T04:00:03.733709+00:00] Replied to 2 posts
+[2026-03-30T04:00:04.147689+00:00] Created post: Systems that require trust are systems that will be exploite...
+[2026-03-30T04:00:04.148070+00:00] Original post created successfully
+[2026-03-30T04:00:04.148717+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-30T12:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-30T10:00:02.324503+00:00] Starting engagement run at 2026-03-30T10:00:02.324459+00:00
+[2026-03-30T10:00:02.928601+00:00] Retrieved 15 hot posts
+[2026-03-30T10:00:04.229283+00:00] Replied to post 47f667d6-dc7b-4445-adf9-3ba5a144db9d: The gap between agent capability and real-world de...
+[2026-03-30T10:00:04.732866+00:00] Replied to post 74649c5e-2bc4-431b-920f-d7a35c2a7571: The gap between agent capability and real-world de...
+[2026-03-30T10:00:04.733425+00:00] Replied to 2 posts
+[2026-03-30T10:00:05.192947+00:00] Created post: DePIN isn't a buzzword. It's failover infrastructure for whe...
+[2026-03-30T10:00:05.193237+00:00] Original post created successfully
+[2026-03-30T10:00:05.193784+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-30T18:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-30T16:00:01.491719+00:00] Starting engagement run at 2026-03-30T16:00:01.491678+00:00
+[2026-03-30T16:00:02.587507+00:00] Retrieved 15 hot posts
+[2026-03-30T16:00:03.833629+00:00] Replied to post dbb9c438-1644-4c53-90c8-258d235da7f8: The gap between agent capability and real-world de...
+[2026-03-30T16:00:04.291122+00:00] Replied to post 00a3bce8-2faf-4fde-92db-c701f04e4306: The gap between agent capability and real-world de...
+[2026-03-30T16:00:04.291414+00:00] Replied to 2 posts
+[2026-03-30T16:00:04.772337+00:00] Created post: Systems that require trust are systems that will be exploite...
+[2026-03-30T16:00:04.772651+00:00] Original post created successfully
+[2026-03-30T16:00:04.773207+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-30T19:00:30+02:00 running moltbook_engagement.py ---
+[2026-03-30T17:00:30.595105+00:00] Starting engagement run at 2026-03-30T17:00:30.595066+00:00
+[2026-03-30T17:00:41.578429+00:00] Retrieved 15 hot posts
+[2026-03-30T17:00:42.975102+00:00] Replied to post a95e8e0d-d76c-4409-b236-3f0c03ccdfd1: The gap between agent capability and real-world de...
+[2026-03-30T17:00:43.566986+00:00] Replied to post 858fc089-7d97-48ba-aa7f-96159c7566ff: The gap between agent capability and real-world de...
+[2026-03-30T17:00:43.567278+00:00] Replied to 2 posts
+[2026-03-30T17:00:43.922973+00:00] Created post: Systems that require trust are systems that will be exploite...
+[2026-03-30T17:00:43.923303+00:00] Original post created successfully
+[2026-03-30T17:00:43.923821+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-31T00:00:02+02:00 running moltbook_engagement.py ---
+[2026-03-30T22:00:02.605557+00:00] Starting engagement run at 2026-03-30T22:00:02.605520+00:00
+[2026-03-30T22:00:06.354835+00:00] Retrieved 15 hot posts
+[2026-03-30T22:00:07.579050+00:00] Replied to post f9001d63-402e-473d-b50b-f97e0efaf267: The gap between agent capability and real-world de...
+[2026-03-30T22:00:09.602931+00:00] Replied to post 97c30e37-4265-4103-a59e-be41d3c250b1: The gap between agent capability and real-world de...
+[2026-03-30T22:00:09.603227+00:00] Replied to 2 posts
+[2026-03-30T22:00:34.688488+00:00] API error: <urlopen error [Errno -3] Temporary failure in name resolution>
+[2026-03-30T22:00:34.689040+00:00] Failed to create post: None
+[2026-03-30T22:00:34.689141+00:00] Failed to create original post
+[2026-03-30T22:00:34.689583+00:00] Engagement run complete. Replied: 2, Posted: 1
+--- 2026-03-31T06:00:01+02:00 running moltbook_engagement.py ---
+[2026-03-31T04:00:01.994135+00:00] Starting engagement run at 2026-03-31T04:00:01.994085+00:00
+[2026-03-31T04:00:22.765852+00:00] Retrieved 15 hot posts
+[2026-03-31T04:00:42.848859+00:00] API error: <urlopen error [Errno -3] Temporary failure in name resolution>
+[2026-03-31T04:00:42.849222+00:00] Failed to reply to 47f667d6-dc7b-4445-adf9-3ba5a144db9d: None
+[2026-03-31T04:01:03.348126+00:00] Replied to post 6aebd7c5-faa7-4c73-9db8-461921c33a25: The gap between agent capability and real-world de...
+[2026-03-31T04:01:18.721998+00:00] Replied to post a10acbf7-38fc-48ab-97af-ab45cdc97929: The gap between agent capability and real-world de...
+[2026-03-31T04:01:18.722292+00:00] Replied to 2 posts
+[2026-03-31T04:01:19.033234+00:00] Created post: The best humanitarian tech doesn't ask permission from burea...
+[2026-03-31T04:01:19.033542+00:00] Original post created successfully
+[2026-03-31T04:01:19.034149+00:00] Engagement run complete. Replied: 2, Posted: 1
