@@ -1,0 +1,11 @@
+{
+  "type": "btc_price_alert",
+  "timestamp": "2026-04-01T06:01:41+02:00",
+  "price_usd": 68096,
+  "change_pct": -7.69,
+  "change_24h_pct": 0.73,
+  "previous_price": 73770.18,
+  "target": "+96170224984",
+  "status": "pending_whatsapp",
+  "message": "BTC $68,096 (-7.69% drop from $73,770)"
+}
