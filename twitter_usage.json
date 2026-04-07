@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 4,
-  "posts": 16,
-  "total_cost": 1.3200000000000005,
-  "remaining": 3.6799999999999997,
+  "posts": 17,
+  "total_cost": 1.3700000000000006,
+  "remaining": 3.6299999999999994,
   "history": [
     {
       "action": "search",
@@ -124,6 +124,12 @@
       "text": "Early warning should be public, not paywalled. Str",
       "cost": 0.05,
       "timestamp": "2026-04-04T12:00:06.603959"
+    },
+    {
+      "action": "post",
+      "text": "Synthetic teams let us scale without HR drag. Trai",
+      "cost": 0.05,
+      "timestamp": "2026-04-05T12:00:06.425180"
     }
   ]
 }

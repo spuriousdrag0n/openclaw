@@ -1,11 +1,8 @@
 {
-  "action": "send_whatsapp_ad",
-  "campaign": "merkleroot",
-  "timestamp": "2026-04-01T05:00:01+02:00",
-  "source": "cron",
+  "pending_at": "2026-04-06T04:00:00+02:00",
   "target": "+96181737912",
   "index": 7,
-  "next_index": 8,
-  "status": "pending_whatsapp_link",
-  "error": "WhatsApp not linked - requires QR scan"
+  "status": "gateway_offline",
+  "media": "/root/.openclaw/workspace/data/merkleroot_ad.jpg",
+  "campaign": "merkleroot"
 }
