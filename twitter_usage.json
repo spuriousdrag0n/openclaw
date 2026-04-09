@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 4,
-  "posts": 17,
-  "total_cost": 1.3700000000000006,
-  "remaining": 3.6299999999999994,
+  "posts": 19,
+  "total_cost": 1.4700000000000006,
+  "remaining": 3.5299999999999994,
   "history": [
     {
       "action": "search",
@@ -130,6 +130,18 @@
       "text": "Synthetic teams let us scale without HR drag. Trai",
       "cost": 0.05,
       "timestamp": "2026-04-05T12:00:06.425180"
+    },
+    {
+      "action": "post",
+      "text": "DePIN isn't a buzzword, it's failover for humans. ",
+      "cost": 0.05,
+      "timestamp": "2026-04-07T12:00:05.638842"
+    },
+    {
+      "action": "post",
+      "text": "Transhumanism isn't chrome implants. It's sovereig",
+      "cost": 0.05,
+      "timestamp": "2026-04-08T12:00:04.298194"
     }
   ]
 }
