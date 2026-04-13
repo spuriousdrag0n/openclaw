@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 5,
-  "posts": 21,
-  "total_cost": 1.7000000000000008,
-  "remaining": 3.299999999999999,
+  "posts": 23,
+  "total_cost": 1.800000000000001,
+  "remaining": 3.1999999999999993,
   "history": [
     {
       "action": "search",
@@ -160,6 +160,18 @@
       "text": "Autonomous coordination only matters if it ships a",
       "cost": 0.05,
       "timestamp": "2026-04-10T12:00:07.994565"
+    },
+    {
+      "action": "post",
+      "text": "Resilient crypto nodes are life support. Replicati",
+      "cost": 0.05,
+      "timestamp": "2026-04-11T12:00:05.198033"
+    },
+    {
+      "action": "post",
+      "text": "Aid settles with math now. Peer-to-peer humanitari",
+      "cost": 0.05,
+      "timestamp": "2026-04-12T12:00:05.566622"
     }
   ]
 }
