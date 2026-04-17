@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 5,
-  "posts": 25,
-  "total_cost": 1.900000000000001,
-  "remaining": 3.0999999999999988,
+  "posts": 27,
+  "total_cost": 2.000000000000001,
+  "remaining": 2.999999999999999,
   "history": [
     {
       "action": "search",
@@ -184,6 +184,18 @@
       "text": "Local intelligence beats imported NGOs. Pairing Mi",
       "cost": 0.05,
       "timestamp": "2026-04-14T12:00:03.648930"
+    },
+    {
+      "action": "post",
+      "text": "Early warning should be public, not paywalled. Str",
+      "cost": 0.05,
+      "timestamp": "2026-04-15T12:00:05.892586"
+    },
+    {
+      "action": "post",
+      "text": "Synthetic teams let us scale without HR drag. Trai",
+      "cost": 0.05,
+      "timestamp": "2026-04-16T12:00:04.760031"
     }
   ]
 }
