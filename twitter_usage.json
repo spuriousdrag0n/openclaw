@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 5,
-  "posts": 27,
-  "total_cost": 2.000000000000001,
-  "remaining": 2.999999999999999,
+  "posts": 29,
+  "total_cost": 2.1000000000000005,
+  "remaining": 2.8999999999999995,
   "history": [
     {
       "action": "search",
@@ -196,6 +196,18 @@
       "text": "Synthetic teams let us scale without HR drag. Trai",
       "cost": 0.05,
       "timestamp": "2026-04-16T12:00:04.760031"
+    },
+    {
+      "action": "post",
+      "text": "Systems beat narratives. The exit ramp from Belgia",
+      "cost": 0.05,
+      "timestamp": "2026-04-17T12:00:03.704224"
+    },
+    {
+      "action": "post",
+      "text": "DePIN isn't a buzzword, it's failover for humans. ",
+      "cost": 0.05,
+      "timestamp": "2026-04-18T12:00:04.931245"
     }
   ]
 }
