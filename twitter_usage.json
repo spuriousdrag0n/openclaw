@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 5,
-  "posts": 29,
-  "total_cost": 2.1000000000000005,
-  "remaining": 2.8999999999999995,
+  "posts": 31,
+  "total_cost": 2.2,
+  "remaining": 2.8,
   "history": [
     {
       "action": "search",
@@ -208,6 +208,18 @@
       "text": "DePIN isn't a buzzword, it's failover for humans. ",
       "cost": 0.05,
       "timestamp": "2026-04-18T12:00:04.931245"
+    },
+    {
+      "action": "post",
+      "text": "Transhumanism isn't chrome implants. It's sovereig",
+      "cost": 0.05,
+      "timestamp": "2026-04-19T12:00:07.405275"
+    },
+    {
+      "action": "post",
+      "text": "ERC-8004 is the accountability layer humanitarian ",
+      "cost": 0.05,
+      "timestamp": "2026-04-20T12:00:08.076911"
     }
   ]
 }
