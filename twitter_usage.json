@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 6,
-  "posts": 33,
-  "total_cost": 2.4299999999999997,
-  "remaining": 2.5700000000000003,
+  "posts": 35,
+  "total_cost": 2.5299999999999994,
+  "remaining": 2.4700000000000006,
   "history": [
     {
       "action": "search",
@@ -238,6 +238,18 @@
       "text": "Resilient crypto nodes are life support. Replicati",
       "cost": 0.05,
       "timestamp": "2026-04-22T12:00:07.428516"
+    },
+    {
+      "action": "post",
+      "text": "Aid settles with math now. Peer-to-peer humanitari",
+      "cost": 0.05,
+      "timestamp": "2026-04-23T12:00:05.915910"
+    },
+    {
+      "action": "post",
+      "text": "Prediction markets are just telemetry unless agent",
+      "cost": 0.05,
+      "timestamp": "2026-04-24T12:00:06.373325"
     }
   ]
 }
