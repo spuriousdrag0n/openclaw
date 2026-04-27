@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
-  "searches": 6,
-  "posts": 35,
-  "total_cost": 2.5299999999999994,
-  "remaining": 2.4700000000000006,
+  "searches": 7,
+  "posts": 37,
+  "total_cost": 2.759999999999999,
+  "remaining": 2.240000000000001,
   "history": [
     {
       "action": "search",
@@ -250,6 +250,24 @@
       "text": "Prediction markets are just telemetry unless agent",
       "cost": 0.05,
       "timestamp": "2026-04-24T12:00:06.373325"
+    },
+    {
+      "action": "search",
+      "query": "Mirofish crypto",
+      "cost": 0.13,
+      "timestamp": "2026-04-25T12:00:06.917522"
+    },
+    {
+      "action": "post",
+      "text": "Local intelligence beats imported NGOs. Pairing Mi",
+      "cost": 0.05,
+      "timestamp": "2026-04-25T12:00:08.281335"
+    },
+    {
+      "action": "post",
+      "text": "Early warning should be public, not paywalled. Str",
+      "cost": 0.05,
+      "timestamp": "2026-04-26T12:00:07.065392"
     }
   ]
 }
