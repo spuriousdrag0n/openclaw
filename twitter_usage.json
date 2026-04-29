@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
   "searches": 7,
-  "posts": 37,
-  "total_cost": 2.759999999999999,
-  "remaining": 2.240000000000001,
+  "posts": 39,
+  "total_cost": 2.8599999999999985,
+  "remaining": 2.1400000000000015,
   "history": [
     {
       "action": "search",
@@ -268,6 +268,18 @@
       "text": "Early warning should be public, not paywalled. Str",
       "cost": 0.05,
       "timestamp": "2026-04-26T12:00:07.065392"
+    },
+    {
+      "action": "post",
+      "text": "Synthetic teams let us scale without HR drag. Trai",
+      "cost": 0.05,
+      "timestamp": "2026-04-27T12:00:08.151380"
+    },
+    {
+      "action": "post",
+      "text": "Systems beat narratives. The exit ramp from Belgia",
+      "cost": 0.05,
+      "timestamp": "2026-04-28T12:00:07.405356"
     }
   ]
 }
