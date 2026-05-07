@@ -1,9 +1,9 @@
 {
   "initial_balance": 5.0,
-  "searches": 9,
-  "posts": 45,
-  "total_cost": 3.4199999999999973,
-  "remaining": 1.5800000000000027,
+  "searches": 10,
+  "posts": 47,
+  "total_cost": 3.649999999999997,
+  "remaining": 1.3500000000000032,
   "history": [
     {
       "action": "search",
@@ -328,6 +328,24 @@
       "text": "Aid settles with math now. Peer-to-peer humanitari",
       "cost": 0.05,
       "timestamp": "2026-05-04T12:00:10.459682"
+    },
+    {
+      "action": "post",
+      "text": "Prediction markets are just telemetry unless agent",
+      "cost": 0.05,
+      "timestamp": "2026-05-05T12:00:09.299844"
+    },
+    {
+      "action": "search",
+      "query": "Mirofish crypto",
+      "cost": 0.13,
+      "timestamp": "2026-05-06T12:00:06.879591"
+    },
+    {
+      "action": "post",
+      "text": "Local intelligence beats imported NGOs. Pairing Mi",
+      "cost": 0.05,
+      "timestamp": "2026-05-06T12:00:09.433871"
     }
   ]
 }
